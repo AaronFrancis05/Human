@@ -9,13 +9,13 @@ public class Student extends Person {
     }
 
     @Override
-    public void ShowDetails(){
-        System.out.println("StudentId: "+StudentId);
+    public void ShowDetails() {
+        System.out.println("StudentId: " + StudentId);
         super.ShowDetails();
-        System.out.println("Course: "+Course);
+        System.out.println("Course: " + Course);
     }
 
-    public void Study(){
-        System.out.println(Name+" is Studying "+Course+".");
+    public void Study() {
+        System.out.println(Name + " is Studying " + Course + ".");
     }
 }
